@@ -1,5 +1,5 @@
 # ToDo-App
-Aplikacja mobilna dla systemu Android wspierająca wykonywanie i planowanie zadań. Pisana na potrzeby pracy licencjackiej. 
+Aplikacja mobilna dla systemu Android wspierająca wykonywanie i planowanie zadań. Pisana na potrzeby testwania i rozszerzania wiedzy. 
 Program jest w ciągłym rozwoju.
 
 ## Użyte Technologie
