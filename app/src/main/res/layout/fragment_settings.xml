@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#195234"
+    >
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    card_view:cardCornerRadius="30dp"
+    card_view:cardElevation="10dp"
+    card_view:cardMaxElevation="2dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:layout_goneMarginRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Zmiana Hasła"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/StareHaslo"
+            android:layout_width="300dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Podaj Stare Hasło" />
+
+        <Button
+            android:id="@+id/buttonDalejZmianaHasla"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="right"
+            android:background="@drawable/buttom_background"
+            android:text="Dalej" />
+
+        <EditText
+            android:id="@+id/NoweHaslo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="textPassword"
+            android:visibility="gone"
+            android:hint="Podaj Nowe Hasło" />
+
+        <EditText
+            android:id="@+id/PNoweHaslo"
+            android:layout_width="300dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:hint="Powtórz Nowe Hasło" />
+
+        <Button
+            android:id="@+id/buttonZmienHaslo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttom_background"
+            android:visibility="gone"
+            android:layout_gravity="right"
+            android:text="Zmień Hasło" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        card_view:cardCornerRadius="30dp"
+        card_view:cardElevation="10dp"
+        card_view:cardMaxElevation="2dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:layout_goneMarginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Usuń Konto"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+            <Button
+                android:id="@+id/buttonUsunKonto"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttom_background"
+                android:layout_gravity="right"
+                android:text="Usun" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
