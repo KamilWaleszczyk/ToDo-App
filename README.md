@@ -14,3 +14,8 @@ Aplikacja stworzona w procesie, który przedstawię ma za zadanie wsparcie pracy
 * Zapraszanie do własnych grup iinych użytkowników
 * Powiadomienia o zadaniach
 * Ranking ilości wykonanych zadań dla poszczególnych grup 
+
+
+## Licence
+
+Distributed under the MIT License. See LICENSE for more information.
